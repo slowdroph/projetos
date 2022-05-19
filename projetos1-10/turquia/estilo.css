@@ -1,0 +1,82 @@
+@font-face {
+    font-family: medieval;
+    src: url(fonts/OldLondon.ttf);
+}
+body{
+    background-image: linear-gradient(to bottom,rgb(0, 255, 242), rgb(21, 182, 182), rgb(18, 124, 124) );
+    background-attachment: fixed;
+    font-family: 'IM Fell Double Pica',Arial, Helvetica, sans-serif;
+    margin: 0px;   
+}
+img{
+    width: 100%;
+}
+h1{
+    font-family: medieval;
+    text-align: center;
+    font-size: 4em;
+    background-color: white;
+    border-style: solid;
+    border-image-source: url(imagens/turquia.poster.png);
+    border-image-repeat: repeat;
+    border-image-width: 40px;
+}
+.cabecalho{
+    background-color: black;
+    font-size: 19px;
+    text-align: center;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+.principal{
+    background-color: aliceblue;
+    font-size: larger;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 3px 3px 4px gray;
+    min-width: 320px;
+}
+.segundo{
+    background-color: aliceblue;
+    font-size: larger;
+    padding: 10px;
+    box-shadow: 3px 3px 4px 0px grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h2{
+    color: red;
+}
+p{
+    text-align: justify;
+    color: gray;
+}
+.rodape{
+    background-color: black;
+    padding: 5px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1em;
+}
+a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color: blue;
+}
+iframe{
+    margin: auto;
+}
+.videoresponsivo{
+    max-width: 580px;
+    box-shadow: 3px 3px 3px gray;
+}
