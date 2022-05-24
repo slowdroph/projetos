@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+
+@font-face {
+    font-family: paragrafo;
+    src: url(fontes/ModernSans-Light.otf) format('OpenType');
+}
+:root{
+    --cor-1: #133EFA;
+    --cor-2: #0BDECB;
+    --cor-3: #10F500;
+    --cor-4: #DECE0B;
+    --cor-5: #FF990D;
+
+    --fonte-título: Rajdhani, arial;
+    --fonte-paragrafo: paragrafo, arial; 
+}
+body{
+    margin: 0px;
+    background-color: var(--cor-5);
+}
+header{
+    background-color: var(--cor-3);
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+header > h1{
+    margin-top: 0px;
+    text-align: center;
+    font-family: var(--fonte-título);
+    font-size: 40px;
+    color: var(--cor-1);
+    border-style: solid;
+    border-color: black;
+    border-radius: 14px;
+    background-color: white;
+}
+header > p{
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+header > nav{
+    text-align: left;
+}
+header > nav > a{
+    text-decoration: none;
+    color: rgb(18, 9, 146);
+}
+header > nav >a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+.artigo{
+    min-width: 320px;
+    max-width: 800px;
+    background-color: var(--cor-2);
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.artigo h2{
+    font-family: 'Lucida Sans Unicode';
+    font-size: 28px;
+    color: red;
+    margin-top: 10px;
+}
+.artigo p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;  
+}
+aside{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(24, 14, 167);
+    padding: 10px;
+}
+iframe{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    margin-top: 10px;
+}
+footer > ul{
+    margin: 0px;
+    padding: 8px;
+}
+footer  li{
+    padding-bottom: 8px;
+}
+footer a{
+    text-decoration: none;
+    color: var(--cor-1);
+}
+footer a:hover{
+    text-decoration: underline;
+    color: purple;
+}
