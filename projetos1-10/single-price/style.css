@@ -11,7 +11,9 @@ body{
     padding-left: 42px;
     padding-right: 42px;
     padding-bottom: 38px;
-    border-start-start-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 134px;
 }
 .topo h1{
     color: hsl(179, 62%, 43%);
@@ -23,14 +25,9 @@ body{
 }
 .esquerda{
     background-color: hsl(179, 62%, 43%);
-    max-width: 600px;
-    margin: auto;
-    padding-top: 10px;
-    padding-left: 42px;
-    padding-right: 42px;
-    padding-bottom: 38px;
+    width: 300px;
+    padding-left: 40px;
     border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
 }
 .esquerda p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -41,31 +38,29 @@ strong{
     color: white;
     font-weight: bold;
 }
-button{
-    width: 100%;
+a{
+    width: 80%;
     padding: 20px;
+    padding-right: 0px;
     background-color: hsl(71, 73%, 54%);
     border-radius: 10px;
     border: none;
-}
-button > a{
+    display: inline-block;
     text-decoration: none;
     color: white;
     font-size: 18px;
+    text-align: center;
+}
+a:hover{
+    background-color: rgb(248, 248, 103);
+}
+a:active{
+    background-color: greenyellow;
 }
 .direita{
     background-color: hsl(179, 62%, 43%);
-    max-width: 600px;
-    margin: auto;
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-left: 42px;
-    padding-right: 42px;
-    padding-bottom: 20px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    width: 342px;
+    border-end-end-radius: 8px;
 }
 .direita p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -79,4 +74,11 @@ ul{
 }
 li{
     padding-bottom: 4px;
+}
+.align{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    
 }
