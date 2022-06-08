@@ -1,0 +1,105 @@
+@font-face {
+    font-family: title;
+    src: url(fontes/Rainbow\ Paper.ttf);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+header{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+.title{
+    font-family: title;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin: 0px;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    z-index: 6;
+}
+header p{
+    font-family: title;
+    font-size: 90px;
+    font-weight: 100;
+    margin: 0px;
+    position: absolute;
+    left: 195px;
+    color: rgb(223, 217, 217);
+    z-index: 3;
+    display: inline-block;
+}
+main{
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+main h2{
+    position: absolute;
+    z-index: 5;
+    color: white;
+    font-family: arial;
+    font-size: 60px;
+    text-indent: 20px;
+}
+main p{
+    position: absolute;
+    top: 120px;
+    z-index: 5;
+    color: white;
+    width: 400px;
+    margin-left: 25px;
+    font-family: serif;
+    font-size: 24px;
+}
+main a{
+    position: absolute;
+    bottom: 45px;
+    padding: 25px;
+    margin-left: 25px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+main a:hover{
+    border-color: orangered;
+    color: yellow;
+}
+main a:active{
+    border-color: yellow;
+    color: orangered;
+}
+footer{
+    margin: 0px;
+    background-color: gray;
+    height: 80px;
+}
+footer > p{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    position: relative;
+    top: 25%;
+    margin-left: 20em;
+}
+footer a{
+    color: orangered;
+    text-decoration: none;
+    font-size: 18px;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
