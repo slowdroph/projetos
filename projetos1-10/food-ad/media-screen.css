@@ -1,0 +1,54 @@
+@media  screen and (max-width:540px) {
+    main > h2{
+        margin-left: 20px;
+        font-size: 55px;
+        text-indent: 0px;
+    }
+}
+@media  screen and (max-width:515px) {
+    main > h2{
+        font-size: 54px;
+    }
+    footer > p{
+        margin: 0px;
+        margin-left: 8px;
+    }
+}
+@media  screen and (max-width:507px) {
+    main > h2{
+        font-size: 50px;
+    }
+}
+@media  screen and (max-width:474px) {
+    main > h2{
+        font-size: 45px;
+    }
+    main > p{
+        position: absolute;
+        top: 85px;
+    }
+}
+@media  screen and (max-width:433px) {
+    main > h2{
+        font-size: 40px;
+    }
+    main > p{
+        position: absolute;
+        top: 75px;
+    }
+}
+@media  screen and (max-width:391px) {
+    main > h2{
+        font-size: 37px;
+    }
+    main > p{
+        position: absolute;
+        top: 60px;
+    }
+}
+@media  screen and (max-width:441px) {
+    main > p{
+        font-size: 21px;
+        overflow-wrap: break-word;
+    }
+}
