@@ -43,3 +43,107 @@
     }
 }
             /* section 2 */
+@media screen and (max-width:375px) {
+    .title-1 h2{
+        font-size: 30px;
+    }
+    .content-2{
+        max-width: 300px;
+    }
+    .content-3{
+        max-width: 300px;
+    }
+}
+            /* section 3 */
+@media screen  and (max-width:375px) {
+    .title-2 h2{
+        font-size: 30px;
+    }
+    .card-1, .card-2, .card-3, .card-4{
+        max-width: 220px;
+    }
+}    
+            /* section 4 */
+@media screen and (max-width:375px) {
+    .content-4 h2{
+        font-size: 29px;
+    }
+}
+            /* section 5 */
+@media screen and (max-width:375px) {
+    .section-5{
+        height: 870px;
+    }
+}
+            /* section 6 */
+@media screen and (max-width:375px) {
+    .content-7{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 4em;
+        max-width: 250px;
+    }
+    .content-7 h2{
+        font-size: 30px;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    .content-7 p{
+        max-width: 250px;
+        text-decoration: center;
+    }
+}
+            /* section 7 */
+
+            /* section 8 */
+@media screen  and (max-width:375px) {
+    .section-8{
+        height: 1200px;
+    }
+    .content-8{
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: wrap;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .content-8 h2{
+        font-size: 30px;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    .content-9{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        max-width: 250px;
+        min-height: 600px;
+    }
+    .content-9 h2{
+        font-size: 30px;
+    }
+    .flex-6{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 0px;
+        min-height: 800px;
+    }
+}
+            /* section 9 */
+@media screen and (max-width:375px) {
+    .title-3{
+        font-size: 28px;
+    }
+    .img-seven{
+        height: 250px;
+    }
+    .content-10{
+        max-width: 320px;
+        max-height: 700px;
+    }
+    .flex-7{
+        padding-left: 0px;
+    }
+}
