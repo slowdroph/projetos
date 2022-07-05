@@ -22,6 +22,12 @@
         justify-content: center;
     }
 }
+@media screen and (max-width:960px) {
+    .flex-1{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
             /* section 3 */
 @media screen and (max-width:530px) {
     .card-1, .card-2, .card-3, .card-4{
