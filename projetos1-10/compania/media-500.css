@@ -1,0 +1,45 @@
+            /* section 1 */
+@media screen and (max-width:375px) {
+    .content-1{
+        margin-right:10px;
+    }
+    .content-1 h1{
+        font-size: 28px;
+    }
+    .navigation{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+    .navigation a{
+        font-size:16px; 
+    }
+    .learn{
+        font-size: 17px;
+        padding: 14px 53px 16px;
+    }
+}
+@media screen and (max-width:565px) {
+    .section-1{
+        background-position: 55% 45%;
+    }
+    .content-1{
+        margin-right:18px;
+    }
+    .content-1 h1{
+        font-size: 36px;
+    }
+    .navigation{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+    .navigation a{
+        font-size:18px; 
+    }
+    .learn{
+        font-size: 17px;
+        padding: 14px 53px 16px;
+    }
+}
+            /* section 2 */
