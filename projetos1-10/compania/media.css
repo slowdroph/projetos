@@ -253,7 +253,9 @@
         display: flex;
         flex-wrap: wrap-reverse;
         gap: 0px;
-        
+    }
+    .content-10{
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width:585px) {
@@ -264,5 +266,17 @@
     }
     .content-10 h2{
         font-size: 38px;
+    }
+}
+@media screen and (max-width:1075px) {
+    .content-10{
+        max-width: 457px;
+        max-height: 653px;
+    }
+    .content-10 h2{
+        font-size: 38px;
+    }
+    .flex-7{
+        padding-left: 20px;
     }
 }
