@@ -844,7 +844,7 @@ header{
     font-size: 19px;
 }
 .flex-8{
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 200px;
 }
